@@ -1,0 +1,22 @@
+.parent-container{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  width: 1fr 1fr 1fr;
+}
+.menu{
+  width: 20%;
+  height: 800px;
+}
+.center{
+  background-color: lightpink;
+  width: 60%;
+  height: 800px;
+
+}
+.void{
+  
+  width: 20%;
+  height: 800px;
+
+}
