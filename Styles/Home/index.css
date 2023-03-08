@@ -7,11 +7,14 @@
   align-items: center;
   justify-content: center;
   margin-top: 60px;
+  gap: 100px;
+  
 }
 
 @media (max-width:1000px){
   .home-container{
     flex-wrap:wrap-reverse;
+    gap: 0px;
   }
 
   .home-intro{
@@ -20,6 +23,7 @@
     margin-right: 25px;
   }
 }
+
 
 .home-intro{
   
@@ -34,19 +38,16 @@
 }
 
 .home-image{
- 
+    
   display: flex;
   justify-content: center;
   
- 
-
-
-
 }
 
 .profile-image{
   width: 310px;
   border-radius: 10px;
+  
 }
 
 @media (max-width:1000px){
@@ -60,6 +61,7 @@
     width: 300px;
   }
 }
+
 
 .first-intro{
   
@@ -105,10 +107,4 @@
 
 
 
-.footer{
-  margin-top:60px;
-  background-color: black;
-  height:100px;
-  width: 100%;
-}
 
