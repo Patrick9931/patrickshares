@@ -57,3 +57,5 @@ button{
 textarea {
   resize: none;
 }
+
+a { color: inherit; } 
