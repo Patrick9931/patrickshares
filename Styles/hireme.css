@@ -1,5 +1,6 @@
 .main-container{
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   background-color: white;
   margin-left: auto;
   margin-right: auto;
@@ -15,10 +16,10 @@
 }
 
 .form-container{
-  flex-direction: column;
   align-items: center;
   margin-top: 70px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   
 }
@@ -26,6 +27,8 @@
 form{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+
   padding: 2vw 4vw;
   width: 40%;
   border-radius: 10px;

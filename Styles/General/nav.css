@@ -55,6 +55,10 @@
     display: none;
   }
 
+  .hireme{
+    display: none;
+  }
+
   .hamburger{
     display: flex;
     position: absolute;
