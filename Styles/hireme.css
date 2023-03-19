@@ -1,15 +1,14 @@
 .main-container{
-  display: flex;
-  flex-direction: column;
+  
   background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
+  margin: auto;
+  width: fit-content;
   height: 800px;
+  width: 650px;
 
 }
 
-@media (max-widht:900px){
+@media (max-width:900px){
   .main-container{
     width: 450px;
 
@@ -18,11 +17,12 @@
 }
 
 .form-container{
-  align-items: center;
   margin-top: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+
   
 }
 
