@@ -1,4 +1,5 @@
 .about-container{
+  display: inline-block;
   margin-top: 50px;
   background-color: white;
   margin: auto;
@@ -73,4 +74,9 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 30px;
+}
+
+
+.free-session{
+   margin-top: 30px;
 }
