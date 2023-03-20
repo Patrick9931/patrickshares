@@ -16,12 +16,15 @@
 
 @media (max-width:900px){
   .about-image{
-    width: 450px;
+    display: flex;
+    align-items: center;
+    width: 100%;
     margin: auto;
   }
 
   .about-text-container{
-    width: 400px ;
+    width:92%;
+   
   }
 }
 
