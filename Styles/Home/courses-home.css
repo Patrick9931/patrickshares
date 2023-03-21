@@ -35,6 +35,10 @@
    margin-top: 40px;
   }
 
+  .a{
+    color: inherit;
+  }
+
 }
 
 
@@ -45,6 +49,7 @@
   border: none;
   box-shadow: 0 0 30px #b8b8b880;
   cursor: pointer;
+  
 }
 
 
