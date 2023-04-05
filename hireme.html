@@ -5,6 +5,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
 
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  
   <link rel="stylesheet" href="Styles/General/hamburger.css">
   <link rel="stylesheet" href="Styles/Home/index.css">
   <link rel="stylesheet" href="Styles/General/fonts.css">
@@ -22,30 +24,33 @@
 </head>
 
 <body>
-  <nav class="main-nav">
-    <a class="home" href="index.html" style="text-decoration: none;color: inherit;">Home</a>
-    <a class="hireme" href="hireme.html" style="text-decoration: none;color: inherit;">Hire Me</a>
-    <a class="courses" href="resources.html" style="text-decoration: none;color: inherit;">Resources</a>
-    <a class="about" href="about.html" style="text-decoration: none;color: inherit;">About</a>
-    <a class="contact" href="contact.html" style="text-decoration: none;color: inherit;">Contact</a>
+  <div class="navs">
+    <nav class="main-nav"  id="nav-placeholder">
+      <script>
+        $(function(){
+          $("#nav-placeholder").load("Navigation/main-nav.html");
+        });
+      </script>
+  
+        <span class="hamburger" onclick="openNav()">&#9776;</span>
+  
+    </nav>
   
   
+    <nav class="side-nav"  id="side-nav">
+      <script>
+        $(function(){
+          $("#side-nav").load("Navigation/side-nav.html");
+        });
+      </script>
   
-    <span class="hamburger"  onclick="openNav()">&#9776;</span>
+        <span class="hamburger" onclick="openNav()">&#9776;</span>
   
-  
-  
-  </nav>
-  
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="index.html">Home</a>
-    <a href="hireme.html">Hire Me</a>
-    <a href="about.html">About</a>
-    <a href="resources.html">Resources</a>
-    <a href="contact.html">Contact</a>
+    </nav>
+
+
   </div>
-  
+
 
 <div class="main-container">
    
@@ -62,43 +67,17 @@
 
   </div>
 
-
 </div>
 
     
-  
+<div id="footer-placeholder">
+  <script>
+    $(function(){
+      $("#footer-placeholder").load("Footer/footer.html");
+    });
+    </script>
 
-
-<footer class="footer">
-  <div class="privacy">
-    <p class="rights" style="color: #c6c6c6;">&#169 Patrick Shares 2023. All rights reserved</p>
-    <a class="policy" href="index.html">Privacy policy</a>
-    <a class="policy" href="index.html">Cookie Policy</a>
-  </div>
-  <div class="social">
-
-    <a href="https://www.youtube.com/channel/UCRU5zhIY6sBvIgeZmNbyCAQ">
-      <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"> 
-        <path fill="#fff" d="M23.8 7.2s-.2-1.7-1-2.4c-.9-1-1.9-1-2.4-1-3.4-.2-8.4-.2-8.4-.2s-5 0-8.4.2c-.5.1-1.5.1-2.4 1-.7.7-1 2.4-1 2.4S0 9.1 0 11.1v1.8c0 1.9.2 3.9.2 3.9s.2 1.7 1 2.4c.9 1 2.1.9 2.6 1 1.9.2 8.2.2 8.2.2s5 0 8.4-.3c.5-.1 1.5-.1 2.4-1 .7-.7 1-2.4 1-2.4s.2-1.9.2-3.9V11c0-1.9-.2-3.8-.2-3.8zM9.5 15.1V8.4l6.5 3.4-6.5 3.3z"></path> 
-    </svg>
-    </a>
-
-                                          
-
-  </div>
-</footer>
-
-
-
-<script>
-  function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-  }
-
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-  }
-</script>
+</div>
 
 
 </body>

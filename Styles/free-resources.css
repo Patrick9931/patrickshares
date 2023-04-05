@@ -1,0 +1,19 @@
+.free-course-box{
+ background-color: pink;
+ display: flex;
+ margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 35px;
+  height: 200px;
+}
+
+.free-image{
+  background-color: lightblue;
+  width: 200px;
+}
+
+.personal-developement-image{
+  width:300px;
+  object-fit: cover;
+  
+}

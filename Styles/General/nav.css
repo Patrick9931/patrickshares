@@ -30,33 +30,10 @@
 
 @media (max-width: 900px){
 
-  .home{
+  .home, .about, .courses, .buy, .contact, .hireme, .blog{
     display: none;
 
 
-  }
-  .about{
-    display: none;
-
-
-  }
-
-  .courses{
-    display: none;
-
-
-  }
-
-  .buy{
-    display: none;
-  }
-
-  .contact{
-    display: none;
-  }
-
-  .hireme{
-    display: none;
   }
 
   .hamburger{
