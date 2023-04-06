@@ -16,7 +16,7 @@
 
 }
 
-.home, .about, .courses, .buy, .contact:hover{
+.home, .blog, .about, .courses, .buy, .contact:hover{
   cursor: pointer;
 }
 

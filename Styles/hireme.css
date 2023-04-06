@@ -15,6 +15,10 @@
 
   }
 
+  form{
+    width: 70%;
+  }
+
 }
 
 .form-container{
@@ -33,7 +37,7 @@ form{
   justify-content: center;
 
   padding: 2vw 4vw;
-  width: 40%;
+  width: 350px;
   border-radius: 10px;
 
 }
