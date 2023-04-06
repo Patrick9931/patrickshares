@@ -19,6 +19,7 @@ p{
 
 
 .free-course-box{
+  position: relative;
  display: flex;
  margin-left: 20px;
   margin-right: 20px;
@@ -54,12 +55,34 @@ p{
 @media (max-width: 900px){
 
   .free-course-box{
+    position: relative;
     flex-direction: column;
     align-items: center;
     height: auto;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     padding-top: 20px;
+    
+  }
+
+  .white-rabbit-image{
+    
   }
 
 
+}
+
+.free{
+  position: absolute;
+  margin-right: 20px;
+  right:15px;
+  bottom:10px;
+  font-weight: 600;
+
+  font-size: 1.125em;
+  letter-spacing: -0.02em;
+  color: var(--color-default);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.7;
+  font-size: 1.125em;
+  margin-top: -15px;
 }
