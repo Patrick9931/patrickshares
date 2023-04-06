@@ -25,9 +25,10 @@ article{
     color: #333333;
     line-height: 45px;
     font-size: 32px;
+		position: absolute;
 }
 
-p{
+p, date{
 	font-size: 1.125em;
   font-weight: 400;
   letter-spacing: -0.02em;
@@ -41,4 +42,11 @@ p{
 a{
 	text-decoration: none;
 	cursor:default;
+}
+
+date{
+	position: relative;
+	top: -14px;
+	
+
 }
