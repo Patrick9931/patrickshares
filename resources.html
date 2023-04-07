@@ -57,22 +57,30 @@
 
 
 <div class="main-container">
-  <a href="psychedelicbeginner.html" style="text-decoration: none;">
-    <div class="free-course-box" > 
-      <div class="free-image">
-        <img class="white-rabbit-image" src="Images/white-rabbit.png">
-      </div>
-  
-      <div class="free-text">
-        <h1>Beginner Psychonaut</h1>
-        <p>Learn how to use psychedelics safely and effectively</p>
-        <p class="free"> <bold>FREE</bold></p>
-  
-      </div>
+  <div class="beginnercourse-placeholder">
+    <div id="beginnercourse-placeholder-desktop">
+      <script>
+        $(function(){
+          $("#beginnercourse-placeholder-desktop").load("Beginner-course/Beginner-course/beginnercourse-desktop.html");
+        });
+        </script>
+    
     </div>
+  
+    
+    <div id="beginnercourse-placeholder-mobile">
+      <script>
+        $(function(){
+          $("#beginnercourse-placeholder-mobile").load("Beginner-course/Beginner-course/beginnercourse-mobile.html");
+        });
+        </script>
+    
+    </div>
+  
+  
 
-  </a>
-   
+  </div>
+
 
 
 </div>
